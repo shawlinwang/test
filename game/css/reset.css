@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+html,body,
+h1,h2,h3,h4,h5,h6,
+p,dl,dt,dd,ul,ol
+{
+	margin:0; 
+	padding:0;
+}
+img{ 
+     border:0 none;
+}
+img { vertical-align:middle}
+
+ul,ol{ list-style:none}
+h1, h2, h3, h4, h5, h6 {font-weight:normal;}
+
+html,body{ overflow-x:hidden;}
+body,input{ line-height:1.5; font:normal 12px '\5FAE\8F6F\96C5\9ED1',Arial,'\5B8B\4F53',sans-serif;}
+a { text-decoration:none; color:#333}
+a:focus{outline:0;}
+.clearfix:after { clear:both; display:block; height:0; visibility:hidden; overflow:hidden; content:'.'}
+* html .clearfix { zoom:1}
+*+html .clearfix { min-height:1px}
+.tc{ text-align:center;}
+.fl{ float:left;}
+.fr{ float:right;}
+.pa{ position:absolute;}
+.pr{ position:relative;}
+.yellow{color:#FF9900;}
+.green{color:#66989a;}
+.blue{color:#46c3b6;}
+
+.of{overflow:hidden}
+/*.rb, .lb{background:url(../images/siteNavBg.gif) no-repeat}*/
+.rb{background-position:right 0; padding:0 10px 0 0}
+.lb{background-position:left 0}

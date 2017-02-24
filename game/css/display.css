@@ -1,0 +1,8 @@
+
+.displayul{
+	float: left;
+}
+.displayul li{
+	float:left; 
+	list-style:none; 
+}
