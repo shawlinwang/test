@@ -1,8 +1,15 @@
-
+body{
+	font-family: helvetica,arial,serif;
+	color: #333;
+	background-color: #ccc;
+	margin: 1em 10%;
+}
 .displayul{
 	float: left;
+	padding: 0;
 }
 .displayul li{
 	float:left; 
-	list-style:none; 
+	list-style:none;
+	padding: 1em;
 }
